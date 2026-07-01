@@ -1,4 +1,22 @@
-# 🎓 Platform E-Learning Berbasis Web
+# Tugas Besar Mata Kuliah Rekayasa Perangkat Lunak
+
+# Kelompok 3
+
+# Nama Anggota :
+
+1. LADEN AHMADDINEJAD (240511054) 
+
+2. RAIKHAN MAULANA HAKIM (240511060)
+
+3. SHOFYAN ALGIFARI (240511162)
+
+4. KIKI ANINDA (240511004)
+
+5. MAHFUZH ZAHIR BAIHAQIE (240511069)
+
+# Project Yang dibuat : Platform E-Learning Berbasis Web
+
+# Platform E-Learning Berbasis Web
 
 Platform pembelajaran digital (E-Learning) berbasis web yang dirancang untuk mengelola materi pembelajaran, pembagian tugas, dan proses penilaian secara terpusat. Sistem ini dibangun menggunakan arsitektur **PHP Native** dan dikembangkan dengan **Tailwind CSS** untuk menghasilkan antarmuka yang modern dan responsif.
 
@@ -6,18 +24,18 @@ Sistem ini memiliki dua peran pengguna, yaitu **Guru** (pengelola materi dan pen
 
 ---
 
-## 🛠️ Spesifikasi Teknologi
+## Spesifikasi Teknologi
 
 * **Sisi Klien (Frontend):** HTML5, Tailwind CSS v3
 * **Sisi Server (Backend):** PHP 8.x Native (berbasis *session*, belum menggunakan framework seperti Laravel atau CodeIgniter)
-* **Penyimpanan Data (Database):** MySQL / MariaDB
-* **Lingkungan Pengembangan:** Laragon / XAMPP
+* **Penyimpanan Data (Database):** MySQL
+* **local development environment :** Laragon
 
 ---
 
-## ✨ Fitur dan Kemampuan Sistem
+## Fitur dan Kemampuan Sistem
 
-### 👨‍🏫 Hak Akses dan Aktivitas Guru
+### Hak Akses dan Aktivitas Guru
 
 | Aktivitas | Deskripsi | Berkas Terkait |
 |---|---|---|
@@ -29,7 +47,7 @@ Sistem ini memiliki dua peran pengguna, yaitu **Guru** (pengelola materi dan pen
 | **Melihat Rekapitulasi Nilai** | Guru dapat melihat rekapitulasi nilai seluruh murid dari seluruh tugas yang pernah dibuat dalam satu tampilan, yang memudahkan proses pelaporan dan dokumentasi. | `rekap_nilai.php` |
 | **Keluar Sistem (Logout)** | Mengakhiri sesi aktif dan menghapus data session pengguna. | `logout.php` |
 
-### 👨‍🎓 Hak Akses dan Aktivitas Murid
+### Hak Akses dan Aktivitas Murid
 
 | Aktivitas | Deskripsi | Berkas Terkait |
 |---|---|---|
@@ -41,7 +59,7 @@ Sistem ini memiliki dua peran pengguna, yaitu **Guru** (pengelola materi dan pen
 | **Melihat Nilai dan Jawaban yang Dikirim** | Setelah dinilai oleh guru, murid dapat membuka kembali jawaban yang telah dikirimkan sekaligus melihat nilai yang diberikan. | `lihat_jawaban.php` |
 | **Keluar Sistem (Logout)** | Mengakhiri sesi aktif murid. | `logout.php` |
 
-### 🔐 Fitur Umum (Autentikasi)
+### Fitur Umum (Autentikasi)
 * **Registrasi Akun** — Pengguna dapat mendaftarkan akun baru dan memilih peran sebagai Guru atau Murid. Password disimpan dalam bentuk terenkripsi menggunakan bcrypt (`password_hash`), bukan sebagai teks biasa.
 * **Login** — Sistem memvalidasi kombinasi email dan password menggunakan `password_verify()`, kemudian mengarahkan pengguna ke dashboard sesuai perannya.
 * **Proteksi Halaman** — Setiap halaman pada panel Guru maupun Murid melakukan pemeriksaan terhadap `$_SESSION['role']` di bagian awal berkas. Apabila peran tidak sesuai atau sesi belum aktif, pengguna akan diarahkan kembali ke halaman login, sehingga akses lintas peran (misalnya murid membuka halaman guru) dapat dicegah.
