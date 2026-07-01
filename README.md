@@ -66,7 +66,7 @@ Sistem ini memiliki dua peran pengguna, yaitu **Guru** (pengelola materi dan pen
 
 ---
 
-## 📂 Struktur Direktori Proyek
+## Struktur Direktori Proyek
 ```text
 elearning/
 ├── assets/                 # Berkas statis tambahan (CSS input & output Tailwind)
@@ -110,7 +110,7 @@ elearning/
 
 ---
 
-## 🗃️ Struktur Basis Data (Ringkas)
+## Struktur Basis Data (Ringkas)
 
 Sistem terdiri dari empat tabel utama dengan relasi sebagai berikut:
 
@@ -123,7 +123,7 @@ Rincian lengkap struktur tabel dapat dilihat pada berkas `database/elearning.sql
 
 ---
 
-## 🔑 Akun Demo
+## Akun Demo
 
 Akun berikut telah tersedia secara otomatis setelah mengimpor `database/elearning.sql`, sehingga dapat langsung digunakan untuk keperluan pengujian tanpa perlu melakukan registrasi manual:
 
@@ -137,4 +137,3 @@ Akun berikut telah tersedia secara otomatis setelah mengimpor `database/elearnin
 | Murid | kelas5@gmail.com  | kelas5    | 5     |
 | Murid | kelas6@gmail.com  | kelas6    | 6     |
 
-> ⚠️ Akun-akun ini hanya diperuntukkan bagi keperluan demonstrasi dan pengujian pada lingkungan lokal. Disarankan untuk mengganti atau menghapus akun tersebut sebelum sistem digunakan pada lingkungan produksi.
