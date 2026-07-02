@@ -83,7 +83,7 @@ elearning/
 │   ├── koneksi.php
 │   └── session.php
 ├── database/               # Berkas skema basis data
-│   └── elearning.sql
+│   └── db_elearning.sql
 ├── guru/                   # Dashboard Guru
 │   ├── dashboard.php
 │   ├── materi.php
@@ -118,21 +118,26 @@ Sistem terdiri dari empat tabel utama dengan relasi sebagai berikut:
 * `tugas` — Menyimpan data tugas yang dibuat oleh guru, mencakup informasi `deadline` dan target `kelas`.
 * `pengumpulan` — Menyimpan jawaban yang dikumpulkan murid, memiliki relasi ke tabel `tugas` (`id_tugas`) dan `users` (`id_murid`), serta kolom `nilai` dan `status`.
 
-Rincian lengkap struktur tabel dapat dilihat pada berkas `database/elearning.sql`.
+Rincian lengkap struktur tabel dapat dilihat pada berkas `database/db_elearning.sql`.
 
 ---
 
 ## Akun Demo
 
-File `database/elearning.sql` sudah menyertakan beberapa akun contoh. Setelah diimpor, akun-akun tersebut bisa langsung dipakai untuk login tanpa proses registrasi tambahan.
+File `database/db_elearning.sql` sudah menyertakan beberapa akun contoh. Setelah diimpor, akun-akun tersebut bisa langsung dipakai untuk login tanpa proses registrasi tambahan.
 
-| Peran | Email             | Password  | Kelas |
-|-------|-------------------|-----------|-------|
-| Guru  | guru@gmail.com    | guru123   | -     |
-| Murid | kelas1@gmail.com  | kelas1    | 1     |
-| Murid | kelas2@gmail.com  | kelas2    | 2     |
-| Murid | kelas3@gmail.com  | kelas3    | 3     |
-| Murid | kelas4@gmail.com  | kelas4    | 4     |
-| Murid | kelas5@gmail.com  | kelas5    | 5     |
-| Murid | kelas6@gmail.com  | kelas6    | 6     |
+| Peran | Email                   | Password  | Kelas |
+|-------|-------------------------|-----------|-------|
+| Guru  | gurukelas1@gmail.com    | GRkelas1  | 1     |
+| Guru  | gurukelas2@gmail.com    | GRkelas1  | 2     |
+| Guru  | gurukelas3@gmail.com    | GRkelas1  | 3     |
+| Guru  | gurukelas4@gmail.com    | GRkelas1  | 4     |
+| Guru  | gurukelas5@gmail.com    | GRkelas1  | 5     |
+| Guru  | gurukelas6@gmail.com    | GRkelas1  | 6     |
+| Murid | kelas1@gmail.com        | kelas1    | 1     |
+| Murid | kelas2@gmail.com        | kelas2    | 2     |
+| Murid | kelas3@gmail.com        | kelas3    | 3     |
+| Murid | kelas4@gmail.com        | kelas4    | 4     |
+| Murid | kelas5@gmail.com        | kelas5    | 5     |
+| Murid | kelas6@gmail.com        | kelas6    | 6     |
 
