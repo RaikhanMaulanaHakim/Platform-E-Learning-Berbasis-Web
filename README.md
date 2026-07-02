@@ -124,7 +124,7 @@ Rincian lengkap struktur tabel dapat dilihat pada berkas `database/elearning.sql
 
 ## Akun Demo
 
-File database/elearning.sql sudah menyertakan beberapa akun contoh. Setelah diimpor, akun-akun tersebut bisa langsung dipakai untuk login tanpa proses registrasi tambahan.
+File 'database/elearning.sql' sudah menyertakan beberapa akun contoh. Setelah diimpor, akun-akun tersebut bisa langsung dipakai untuk login tanpa proses registrasi tambahan.
 
 | Peran | Email             | Password  | Kelas |
 |-------|-------------------|-----------|-------|
