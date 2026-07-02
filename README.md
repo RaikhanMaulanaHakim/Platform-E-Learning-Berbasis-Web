@@ -129,11 +129,11 @@ File `database/db_elearning.sql` sudah menyertakan beberapa akun contoh. Setelah
 | Peran | Email                   | Password  | Kelas |
 |-------|-------------------------|-----------|-------|
 | Guru  | gurukelas1@gmail.com    | GRkelas1  | 1     |
-| Guru  | gurukelas2@gmail.com    | GRkelas1  | 2     |
-| Guru  | gurukelas3@gmail.com    | GRkelas1  | 3     |
-| Guru  | gurukelas4@gmail.com    | GRkelas1  | 4     |
-| Guru  | gurukelas5@gmail.com    | GRkelas1  | 5     |
-| Guru  | gurukelas6@gmail.com    | GRkelas1  | 6     |
+| Guru  | gurukelas2@gmail.com    | GRkelas2  | 2     |
+| Guru  | gurukelas3@gmail.com    | GRkelas3  | 3     |
+| Guru  | gurukelas4@gmail.com    | GRkelas4  | 4     |
+| Guru  | gurukelas5@gmail.com    | GRkelas5  | 5     |
+| Guru  | gurukelas6@gmail.com    | GRkelas6  | 6     |
 | Murid | kelas1@gmail.com        | kelas1    | 1     |
 | Murid | kelas2@gmail.com        | kelas2    | 2     |
 | Murid | kelas3@gmail.com        | kelas3    | 3     |
