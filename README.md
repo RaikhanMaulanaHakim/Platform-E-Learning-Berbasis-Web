@@ -82,7 +82,7 @@ elearning/
 ├── config/                  # Koneksi PHP
 │   ├── koneksi.php
 │   └── session.php
-├── database/                 # Berkas skema basis data
+├── database/                 # Berkas skema basis data (database)
 │   └── db_elearning.sql
 ├── guru/                    # Dashboard Guru
 │   ├── dashboard.php
