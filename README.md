@@ -79,12 +79,12 @@ elearning/
 │   ├── proses_login.php
 │   ├── proses_register.php
 │   └── register.php
-├── config/                 # Konfigurasi inti aplikasi
+├── config/                 # Koneksi PHP
 │   ├── koneksi.php
 │   └── session.php
 ├── database/               # Berkas skema basis data
 │   └── elearning.sql
-├── guru/                   # Antarmuka dan logika bisnis panel Guru
+├── guru/                   # Dashboard Guru
 │   ├── dashboard.php
 │   ├── materi.php
 │   ├── penilaian.php
@@ -93,7 +93,7 @@ elearning/
 │   ├── proses_tugas.php
 │   ├── rekap_nilai.php
 │   └── tugas.php
-├── murid/                  # Antarmuka dan logika bisnis panel Murid
+├── murid/                  # Dashboard Murid
 │   ├── dashboard.php
 │   ├── kerjakan_tugas.php
 │   ├── lihat_jawaban.php
