@@ -26,7 +26,7 @@ Sistem ini memiliki dua peran pengguna, yaitu **Guru** (pengelola materi dan pen
 
 ## Spesifikasi Teknologi
 
-* **Sisi Klien (Frontend):** HTML5, Tailwind CSS v3 (dikompilasi via Tailwind CLI, lihat `package.json`)
+* **Sisi Klien (Frontend):** HTML5, Tailwind CSS v3
 * **Sisi Server (Backend):** PHP 8.x Native (berbasis *session*, belum menggunakan framework seperti Laravel)
 * **Penyimpanan Data (Database):** MySQL (`db_elearning`)
 * **Local development environment:** Laragon
@@ -112,7 +112,7 @@ elearning/
 
 ---
 
-## Struktur Basis Data (Ringkas)
+## Struktur Basis Data (DataBase)
 
 Sistem terdiri dari empat tabel utama dengan relasi sebagai berikut:
 
