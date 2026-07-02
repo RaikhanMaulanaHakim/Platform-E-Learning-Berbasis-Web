@@ -6,6 +6,8 @@
 -- Generation Time: Jul 02, 2026 at 12:54 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
+CREATE DATABASE IF NOT EXISTS elearning;
+USE elearning;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
