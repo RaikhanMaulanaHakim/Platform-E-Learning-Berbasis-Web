@@ -101,7 +101,6 @@ elearning/
 │   ├── proses_kumpul_tugas.php
 │   ├── tugas_saya.php
 │   └── tugas.php
-├── templates/               # Komponen antarmuka modular (header, footer, dll.)
 └── uploads/                 # Tempat penyimpanan berkas dinamis yang diunggah
     ├── materi/
     ├── pengumpulan/
