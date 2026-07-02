@@ -71,11 +71,9 @@ Sistem ini memiliki dua peran pengguna, yaitu **Guru** (pengelola materi dan pen
 elearning/
 ├── assets/
 │   ├── css/
-│   │   ├── input.css        # Berkas sumber Tailwind
-│   │   └── output.css       # Hasil kompilasi Tailwind (npm run build)
-│   ├── img/                 # Aset gambar statis (belum digunakan)
-│   └── uploads/              # Placeholder unggahan lama (tidak dipakai; lihat ./uploads di root)
-├── auth/                    # Modul autentikasi pengguna
+│      ├── input.css        # Berkas sumber Tailwind
+│      └── output.css       # Hasil kompilasi Tailwind (npm run build)
+├── auth/                    # autentikasi pengguna
 │   ├── login.php
 │   ├── logout.php
 │   ├── proses_login.php
@@ -129,7 +127,7 @@ Rincian lengkap struktur tabel dapat dilihat pada berkas `database/db_elearning.
 
 ## Cara Menjalankan (Local Development)
 
-1. Clone/salin folder proyek ke direktori `www` (Laragon) atau `htdocs` (XAMPP).
+1. Clone/salin folder proyek ke direktori `www` (Laragon)
 2. Buat database MySQL bernama `db_elearning`, lalu impor berkas `database/db_elearning.sql`.
 3. Sesuaikan kredensial koneksi database pada `config/koneksi.php` bila diperlukan (default: host `localhost`, user `root`, tanpa password).
 4. Install dependensi Tailwind dan build CSS:
@@ -147,17 +145,17 @@ Rincian lengkap struktur tabel dapat dilihat pada berkas `database/db_elearning.
 
 File `database/db_elearning.sql` sudah menyertakan beberapa akun contoh untuk setiap kelas (Kelas 1–6), baik untuk peran Guru maupun Murid. Setelah diimpor, akun-akun tersebut bisa langsung dipakai untuk login tanpa proses registrasi tambahan.
 
-| Peran | Email                    | Kelas |
-|-------|---------------------------|-------|
-| Murid | kelas1@gmail.com          | 1     |
-| Murid | kelas2@gmail.com          | 2     |
-| Murid | kelas3@gmail.com          | 3     |
-| Murid | kelas4@gmail.com          | 4     |
-| Murid | kelas5@gmail.com          | 5     |
-| Murid | kelas6@gmail.com          | 6     |
-| Guru  | gurukelas1@gmail.com       | 1     |
-| Guru  | gurukelas2@gmail.com       | 2     |
-| Guru  | gurukelas3@gmail.com       | 3     |
-| Guru  | gurukelas4@gmail.com       | 4     |
-| Guru  | gurukelas5@gmail.com       | 5     |
-| Guru  | gurukelas6@gmail.com       | 6     |
+| Peran | Email                      | Kelas | mengajar kelas  | Password           |
+|-------|--------------------------- |-------|-----------------|--------------------|
+| Murid | kelas1@gmail.com           | 1     | -               | kelas1             |               
+| Murid | kelas2@gmail.com           | 2     | -               | kelas2             |
+| Murid | kelas3@gmail.com           | 3     | -               | kelas3             | 
+| Murid | kelas4@gmail.com           | 4     | -               | kelas4             |
+| Murid | kelas5@gmail.com           | 5     | -               | kelas5             |
+| Murid | kelas6@gmail.com           | 6     | -               | kelas6             |
+| Guru  | gurukelas1@gmail.com       | -     | 1               | GRkelas1           |
+| Guru  | gurukelas2@gmail.com       | -     | 2               | GRkelas2           |
+| Guru  | gurukelas3@gmail.com       | -     | 3               | GRkelas3           |
+| Guru  | gurukelas4@gmail.com       | -     | 4               | GRkelas4           |
+| Guru  | gurukelas5@gmail.com       | -     | 5               | GRkelas5           |
+| Guru  | gurukelas6@gmail.com       | -     | 6               | GRkelas6           |
